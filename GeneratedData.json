@@ -1,0 +1,202 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://example.com/observation-code",
+              "code": "Neck",
+              "display": "Neck"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26964123"
+        },
+        "valueQuantity": {
+          "value": 100,
+          "unit": "degrees",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/Neck"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://example.com/observation-code",
+              "code": "Right Elbow",
+              "display": "Right Elbow"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26964123"
+        },
+        "valueQuantity": {
+          "value": 150,
+          "unit": "degrees",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/Right Elbow"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://example.com/observation-code",
+              "code": "Spine",
+              "display": "Spine"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26964123"
+        },
+        "valueQuantity": {
+          "value": 0,
+          "unit": "degrees",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/Spine"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://example.com/observation-code",
+              "code": "Chest",
+              "display": "Chest"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26964123"
+        },
+        "valueQuantity": {
+          "value": 10,
+          "unit": "degrees",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/Chest"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://example.com/observation-code",
+              "code": "Hip",
+              "display": "Hip"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26964123"
+        },
+        "valueQuantity": {
+          "value": 0,
+          "unit": "degrees",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/Hip"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://example.com/observation-code",
+              "code": "Left Ankle",
+              "display": "Left Ankle"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26964123"
+        },
+        "valueQuantity": {
+          "value": 10,
+          "unit": "degrees",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/Left Ankle"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://example.com/observation-code",
+              "code": "Right Ankle",
+              "display": "Right Ankle"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/26964123"
+        },
+        "valueQuantity": {
+          "value": 20,
+          "unit": "degrees",
+          "system": "http://unitsofmeasure.org",
+          "code": "deg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/Right Ankle"
+      }
+    }
+  ]
+}
